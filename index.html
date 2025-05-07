@@ -3,13 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>TaskBuddy - Task Management</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <input type="checkbox" id="sidebar-toggle">
     <div class="container">
         <div class="header">
             <div class="left">
+                <label for="sidebar-toggle" class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
                 <div class="logo">TaskBuddy</div>
                 <div class="header-nav">
                     <a href="">Home</a>
@@ -17,16 +23,15 @@
                     <a href="">Calender</a>
                     <a href="">Report</a>
                 </div>
-               
             </div>
             <div class="right">
-                <div class="search"> <input type="text" placeholder="serch.."></div>
+                <div class="search"><input type="text" placeholder="search.."></div>
                 <div class="notification">📬</div>
             </div>
         </div>
         
-         <aside class="sidebar">
-            <div class="sidebar-item ">
+        <aside class="sidebar">
+            <div class="sidebar-item">
                 <div>Dashboard</div>
             </div>
             <div class="sidebar-item">
@@ -48,56 +53,56 @@
                 <div>Settings</div>
             </div>
         </aside>
+        
         <main class="main">
             <div class="column">
-              <h3>Task Ready</h3>
-              <div class="card">
-                <span class="tag blue">UI Design</span>
-                <p>Design the basic layout structure for the homepage, including navigation and main content areas.</p>
-              </div>
-              <div class="card">
-                <span class="tag blue">UI Design</span>
-                <p>Create an intuitive and user-friendly design for the login page, ensuring a seamless user experience.</p>
-              </div>
+                <h3>Task Ready</h3>
+                <div class="card">
+                    <span class="tag blue">UI Design</span>
+                    <p>Design the basic layout structure for the homepage, including navigation and main content areas.</p>
+                </div>
+                <div class="card">
+                    <span class="tag blue">UI Design</span>
+                    <p>Create an intuitive and user-friendly design for the login page, ensuring a seamless user experience.</p>
+                </div>
             </div>
           
             <div class="column">
-              <h3>In Progress</h3>
-              <div class="card">
-                <span class="tag pink">Copywriting</span>
-                <p>Craft a compelling headline and subheading for the homepage to capture the visitor's attention.</p>
-              </div>
-              <div class="card">
-                <span class="tag green">Illustration</span>
-                <p>Create a set of unique icons to represent key actions or features in the app.</p>
-              </div>
+                <h3>In Progress</h3>
+                <div class="card">
+                    <span class="tag pink">Copywriting</span>
+                    <p>Craft a compelling headline and subheading for the homepage to capture the visitor's attention.</p>
+                </div>
+                <div class="card">
+                    <span class="tag green">Illustration</span>
+                    <p>Create a set of unique icons to represent key actions or features in the app.</p>
+                </div>
             </div>
           
             <div class="column">
-              <h3>Needs Review</h3>
-              <div class="card">
-                <span class="tag pink">Copywriting</span>
-                <p>Ensure that the tone and style of the text align with the brand voice and messaging guidelines.</p>
-              </div>
-              <div class="card">
-                <span class="tag blue">UI Design</span>
-                <p>Review how the design looks and functions on different devices (phones, tablets) and ensure it is responsive.<p>
-              </div>
+                <h3>Needs Review</h3>
+                <div class="card">
+                    <span class="tag pink">Copywriting</span>
+                    <p>Ensure that the tone and style of the text align with the brand voice and messaging guidelines.</p>
+                </div>
+                <div class="card">
+                    <span class="tag blue">UI Design</span>
+                    <p>Review how the design looks and functions on different devices (phones, tablets) and ensure it is responsive.</p>
+                </div>
             </div>
           
             <div class="column">
-              <h3>Done</h3>
-              <div class="card">
-                <span class="tag green">Illustration</span>
-                <p>All product icons have been completed and are now ready for integration into the app.</p>
-              </div>
-              <div class="card">
-                <span class="tag green">Illustration</span>
-                <p>The hero image for the homepage has been finalized and is ready for deployment.</p>
-              </div>
+                <h3>Done</h3>
+                <div class="card">
+                    <span class="tag green">Illustration</span>
+                    <p>All product icons have been completed and are now ready for integration into the app.</p>
+                </div>
+                <div class="card">
+                    <span class="tag green">Illustration</span>
+                    <p>The hero image for the homepage has been finalized and is ready for deployment.</p>
+                </div>
             </div>
-          </main>
-          
-       </div>
+        </main>
+    </div>
 </body>
 </html>
